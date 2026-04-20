@@ -1,4 +1,4 @@
-🇩🇪 README (Deutsch – final)
+**🇩🇪 README (Deutsch)**
 🎙 Hörstimme App
 
 Diese Anwendung ermöglicht die Verarbeitung und Transformation von Sprache direkt im Browser.
@@ -23,7 +23,7 @@ Falls die Submodules nicht geladen wurden:
 
 git submodule update --init --recursive
 
-🚀 Schnellstart (für Nutzer)
+**🚀 Schnellstart (für Nutzer)**
 
 1️⃣ Einmalige Einrichtung
 Stelle sicher, dass Docker Desktop installiert ist
@@ -34,6 +34,7 @@ Doppelklick auf: scripts/Install-Hoerstimme.bat
 
 👉 Mac
 Doppelklick auf: scripts/Install-Hoerstimme.command
+
 2️⃣ Anwendung starten
 
 👉 Windows
@@ -77,8 +78,10 @@ Beim ersten Start kann es etwas länger dauern (Docker Build)
 Danach startet die App deutlich schneller
 
 Internetverbindung wird benötigt (API-Zugriffe)
-🇬🇧 README (English – final)
-🎙 Hörstimme App
+
+
+**🇬🇧 README (English )
+🎙 Hörstimme App**
 
 This application enables real-time speech processing and transformation directly in the browser.
 
