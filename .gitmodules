@@ -1,0 +1,6 @@
+[submodule "voice_bridge_be"]
+	path = voice_bridge_be
+	url = https://github.com/hoerstimme/voice_bridge_be
+[submodule "voice_bridge_fe"]
+	path = voice_bridge_fe
+	url = https://github.com/hoerstimme/voice_bridge_fe
