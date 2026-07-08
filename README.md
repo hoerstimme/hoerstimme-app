@@ -6,6 +6,10 @@ Diese Anwendung ermöglicht die Verarbeitung und Transformation von Sprache dire
 
 Die komplette Anwendung (Backend, Frontend und Datenbank) wird automatisch über Docker gestartet.
 
+## 🌐 Live-Demo
+
+👉 [https://hoerstimme.demo.sinceare.com](https://hoerstimme.demo.sinceare.com)
+
 ## 📥 Download / Installation
 
 Die Anwendung muss aus folgendem Repository bezogen werden:
@@ -87,20 +91,6 @@ hoerstimme-app/
 - Danach startet die App deutlich schneller
 - Internetverbindung wird benötigt (API-Zugriffe)
 
-## ⚠️ Lokales Testen (nur für Entwickler)
-
-Das Frontend nutzt relative API-Pfade (`/api/...`), die auf dem Server über Caddy 
-(Reverse Proxy) ans Backend weitergeleitet werden. Lokal per `docker compose up -d` 
-(`http://localhost:3000`) läuft **kein** Caddy davor – deshalb schlägt das Laden 
-der Stimmen (`available_voices`) lokal fehl ("Loading..." bleibt hängen).
-
-**Für Frontend-Änderungen daher direkt über die Demo-Domain testen:**
-
-https://hoerstimme.demo.sinceare.com
-
-statt `localhost:3000`. Dafür: lokal committen/pushen, auf dem Server `git pull` + 
-`docker compose build && docker compose up -d`.
-
 ---
 
 # 🇬🇧 README (English)
@@ -110,6 +100,11 @@ statt `localhost:3000`. Dafür: lokal committen/pushen, auf dem Server `git pull
 This application enables real-time speech processing and transformation directly in the browser.
 
 The full stack (backend, frontend, and database) is automatically started using Docker.
+
+## 🌐 Live Demo
+
+👉 [https://hoerstimme.demo.sinceare.com](https://hoerstimme.demo.sinceare.com)
+
 
 ## 📥 Download / Installation
 
@@ -189,20 +184,6 @@ hoerstimme-app/
 ## 💡 Notes
 - First startup may take longer (Docker build)
 - Subsequent starts are faster
-
-## ⚠️ Local Testing (developers only)
-
-The frontend uses relative API paths (`/api/...`), which are routed to the backend 
-via Caddy (reverse proxy) on the server. Running locally via `docker compose up -d` 
-(`http://localhost:3000`) has **no** Caddy in front of it — so loading voices 
-(`available_voices`) will fail locally ("Loading..." never resolves).
-
-**For frontend changes, test directly via the demo domain instead:**
-
-https://hoerstimme.demo.sinceare.com
-
-Workflow: commit/push locally, then on the server run `git pull` + 
-`docker compose build && docker compose up -d`.
 
 ## 🪪 License
 
