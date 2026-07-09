@@ -2,7 +2,10 @@
 
 ## 🎙 Hörstimme App
 
-Diese Anwendung ermöglicht die Verarbeitung und Transformation von Sprache direkt im Browser.
+Hörstimme wurde ursprünglich für eine fast taube Person entwickelt, damit diese einer Unterhaltung folgen kann, ohne auf Transkription angewiesen zu sein. Statt Untertitel zu lesen – und dabei Blickkontakt sowie die Wahrnehmung von Mimik und Körpersprache zu verlieren – kann die Stimme des Gesprächspartners bzw. der Gesprächspartnerin in Echtzeit in eine Stimme und Tonlage umgewandelt werden, die tatsächlich wahrgenommen und verstanden werden kann.
+
+Die Anwendung arbeitet sprachunabhängig – Gesprächspartner:innen können in jeder 
+unterstützten Sprache sprechen, ihre Stimme wird entsprechend umgewandelt – und läuft durchgehend während gesprochen wird, ohne dass die Aufnahme gestoppt und neu gestartet werden muss, damit der natürliche Gesprächsfluss erhalten bleibt.
 
 Die komplette Anwendung (Backend, Frontend und Datenbank) wird automatisch über Docker gestartet.
 
@@ -97,9 +100,10 @@ hoerstimme-app/
 
 ## 🎙 Hörstimme App
 
-This application enables real-time speech processing and transformation directly in the browser.
+Hörstimme was originally built for a user who is nearly deaf, to let them follow a 
+conversation without relying on transcription. Instead of reading captions — and losing eye contact and the ability to read facial expressions and body language — they can hear the conversation partner's voice converted, in real time, into a voice and pitch range they can actually perceive and understand.
 
-The full stack (backend, frontend, and database) is automatically started using Docker.
+It works language-independently — speak in any supported language, and the conversation partner's voice is converted accordingly — and runs continuously while people speak, with no need to stop and restart recording, so the natural flow of a conversation is preserved.
 
 ## 🌐 Live Demo
 
