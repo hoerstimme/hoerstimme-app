@@ -9,10 +9,6 @@ unterstützten Sprache sprechen, ihre Stimme wird entsprechend umgewandelt – u
 
 Die komplette Anwendung (Backend, Frontend und Datenbank) wird automatisch über Docker gestartet.
 
-## 🌐 Live-Demo
-
-👉 [https://hoerstimme.demo.sinceare.com](https://hoerstimme.demo.sinceare.com)
-
 ## 📥 Download / Installation
 
 Die Anwendung muss aus folgendem Repository bezogen werden:
@@ -104,10 +100,6 @@ Hörstimme was originally built for a user who is nearly deaf, to let them follo
 conversation without relying on transcription. Instead of reading captions — and losing eye contact and the ability to read facial expressions and body language — they can hear the conversation partner's voice converted, in real time, into a voice and pitch range they can actually perceive and understand.
 
 It works language-independently — speak in any supported language, and the conversation partner's voice is converted accordingly — and runs continuously while people speak, with no need to stop and restart recording, so the natural flow of a conversation is preserved.
-
-## 🌐 Live Demo
-
-👉 [https://hoerstimme.demo.sinceare.com](https://hoerstimme.demo.sinceare.com)
 
 
 ## 📥 Download / Installation
